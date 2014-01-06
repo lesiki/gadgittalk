@@ -1,0 +1,34 @@
+* { box-sizing:border-box; }
+body {
+	background-color:#f3f3fb;
+	margin:0;
+	padding:0;
+}
+#main {
+	display:block;
+	width:100%;
+	border-top: 35px solid #21a1d3;
+	background-image:url('images/logo.png');
+	background-position:55px 40px;
+	padding-top:170px;
+	padding-left:45px;
+	background-repeat:no-repeat;
+	min-height:100%;
+}
+#vid {
+	float:left;
+	max-width:60%;
+	iframe {
+		width: 100%;
+		height: 100%;
+	}
+}
+#vid,#info {
+	display:inline-block;
+}
+#info {
+	max-width:40%;
+}
+#info:after {
+	clear: both;
+}
